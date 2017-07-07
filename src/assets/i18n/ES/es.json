@@ -1,11 +1,12 @@
 {
   "login": {
-    "title": "Sign in to ng2-admin",
-    "signup_link": "New to ng2-admin? Sign up!",
+    "title": "Entrar en el sistema",
+    "signup_link": "New to Kyros? Sign up!",
+    "username": "Usuario",
     "email": "Email",
-    "password": "Password",
-    "sign_in": "Sign in",
-    "forgot_password": "Forgot password?",
+    "password": "Contraseña",
+    "sign_in": "Ok",
+    "forgot_password": "¿Olvidaste tu contraseña?",
     "sign_from_app_text": "or Sign in with one click",
     "share_on_facebook": "Share on Facebook",
     "share_on_twitter": "Share on Twitter",
@@ -19,6 +20,7 @@
     },
     "menu": {
       "dashboard": "Panel",
+      "pois": "Pois",
       "editors": "Editors",
       "ck_editor": "CKEditor",
       "components": "Elementos",
@@ -51,15 +53,19 @@
       "menu_level_1_2_1": "Menu Level 1.2.1",
       "external_link": "External Link"
     },
-    "created_with": "Created with"
+    "created_with": "Created with",
+    "updated_at": "Actualizado"
   },
   "dashboard": {
     "acquisition_channels": "Acquisition Channels",
-    "users_by_country": "Users by Country",
+    "users_by_country": "Posiciones",
+    "tracking_and_events": "Posiciones y eventos",
     "revenue": "Revenue",
     "feed": "Feed",
     "todo_list": "To Do List",
     "calendar": "Calendar",
+    "last_events": "Últimos eventos",
+    "events": "Eventos",
     "new_visits": "New Visits",
     "purchases": "Purchases",
     "active_users": "Active Users",

@@ -30,6 +30,7 @@ export class BaThemeConfigProvider {
 
     // dashboard colors for charts
     this.dashboardColors = {
+      alert: '#d82f15',
       blueStone: '#40daf1',
       surfieGreen: '#00abff',
       silverTree: '#1b70ef',

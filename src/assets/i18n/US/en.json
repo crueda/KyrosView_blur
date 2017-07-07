@@ -1,8 +1,9 @@
 {
   "login": {
-    "title": "Sign in to ng2-admin",
-    "signup_link": "New to ng2-admin? Sign up!",
+    "title": "Sign in to KyrosView",
+    "signup_link": "New to Kyros? Sign up!",
     "email": "Email",
+    "username": "Usuario",
     "password": "Password",
     "sign_in": "Sign in",
     "forgot_password": "Forgot password?",
@@ -51,15 +52,19 @@
       "menu_level_1_2_1": "Menu Level 1.2.1",
       "external_link": "External Link"
     },
-    "created_with": "Created with"
+    "created_with": "Created with",
+    "updated_at": "Updated"
   },
   "dashboard": {
     "acquisition_channels": "Acquisition Channels",
-    "users_by_country": "Users by Country",
+    "users_by_country": "Trackings",
+    "tracking_and_events": "Trackings and events",
     "revenue": "Revenue",
     "feed": "Feed",
     "todo_list": "To Do List",
     "calendar": "Calendar",
+    "last_events": "Last events",
+    "events": "Events",
     "new_visits": "New Visits",
     "purchases": "Purchases",
     "active_users": "Active Users",

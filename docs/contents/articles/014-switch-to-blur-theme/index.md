@@ -50,6 +50,7 @@ For our blur theme we use the following configuration in `src/app/theme/theme.co
     dangerDark: colorHelper.shade(colorScheme.danger, 15),
 
     dashboard: {
+      alert: '#d82f15',
       blueStone: '#005562',
       surfieGreen: '#0e8174',
       silverTree: '#6eba8c',

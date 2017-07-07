@@ -1,49 +1,54 @@
-import {Injectable} from '@angular/core';
-import {BaThemeConfigProvider} from '../../../theme';
+import { Injectable } from '@angular/core';
+import { BaThemeConfigProvider } from '../../../theme';
 
 @Injectable()
 export class CalendarService {
 
-  constructor(private _baConfig:BaThemeConfigProvider) {
+  constructor(private _baConfig: BaThemeConfigProvider) {
   }
 
   getData() {
 
-    let dashboardColors = this._baConfig.get().colors.dashboard;
+    const dashboardColors = this._baConfig.get().colors.dashboard;
     return {
       header: {
         left: 'prev,next today',
         center: 'title',
-        right: 'month,agendaWeek,agendaDay'
+        right: 'month,agendaWeek,agendaDay',
       },
       defaultDate: '2016-03-08',
       selectable: true,
       selectHelper: true,
-      editable: true,
+      editable: false,
       eventLimit: true,
       events: [
         {
-          title: 'All Day Event',
+          title: 'Pánico',
           start: '2016-03-01',
-          color: dashboardColors.silverTree
+          color: dashboardColors.alert,
         },
         {
-          title: 'Long Event',
+          title: 'Inactividad',
           start: '2016-03-07',
           end: '2016-03-10',
-          color: dashboardColors.blueStone
+          color: dashboardColors.blueStone,
         },
         {
-          title: 'Dinner',
+          title: 'Velocidad excesiva',
+          start: '2016-03-14T11:00:00',
+          color: dashboardColors.surfieGreen,
+        },
+        {
+          title: 'Velocidad excesiva',
           start: '2016-03-14T20:00:00',
-          color: dashboardColors.surfieGreen
+          color: dashboardColors.surfieGreen,
         },
         {
-          title: 'Birthday Party',
+          title: 'Robo',
           start: '2016-04-01T07:00:00',
-          color: dashboardColors.gossip
-        }
-      ]
+          color: dashboardColors.alert,
+        },
+      ],
     };
   }
 }
